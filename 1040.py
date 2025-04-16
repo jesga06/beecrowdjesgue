@@ -1,6 +1,6 @@
-n1, n2, n3, n4 = (input()).strip().split()
+n1, n2, n3, n4 = (input()).split()
 mp = (float(n1) * 2 + float(n2) * 3 + float(n3) * 4 + float(n4) * 1) /  10
-print(f"Media: {float(mp)}")
+print(f"Media: {mp:.2f}")
 if mp >= 7.0:
     print("Aluno aprovado.")
 elif mp < 5.0:
